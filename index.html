@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
+
+  <title> Hila & Ofir Wedding </title>
+  <meta name="description" content="yay!" />
+
+  <meta property="og:title" content="Hila & Ofir Wedding" />
+  <meta property="og:description" content="yay!" />
+  <meta property="og:image" content="https://hila-caught-me-in-her.net/images/meta-stamp.jpeg">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+
+
+  <script data-cfasync="false" src="js/website-handler.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</head>
+
+<body>
+  <section class="landing">
+    <div id="scene">
+      <img id="stamp1" class="decoration" data-depth-x="0.17" data-depth-y="-0.15" src="images/stamp-1.svg" alt="Leaf3" />
+      <img id="stamp2" class="decoration" data-depth-x="-0.15" data-depth-y="0.15" src="images/stamp-2.svg" alt="Leaf4" />
+      <img id="stamp3" class="decoration" data-depth-x="0.13" data-depth-y="0.18" src="images/stamp-3.svg" alt="Leaf5" />
+    </div>
+
+    <img class="poem-img" src="images/poem.svg" alt="Poem" />
+    <img class="title-img" src="images/title.svg" alt="Ofir & Hila" />
+
+    <img id="scroll-to-when" class="arrow-icon" src="images/arrow-down.svg" alt="Arrow" />
+  </section>
+
+  <section class="when">
+    <img class="when-details" src="images/when.svg" alt="when-details">
+  </section>
+
+
+  <section class="where">
+    <img class="where-car" src="images/car.gif" alt="car">
+    <img class="where-details" src="images/where.svg" alt="where-details">
+    <a class="directions" target="_blank" href="https://ul.waze.com/ul?ll=31.74166269%2C35.00952244&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+      <img src="images/pin.svg" />
+      להוראות הגעה לחצו כאן
+    </a>
+  </section>
+
+  <section class="confirmation">
+    <img class="confirmation-header" src="images/confirmation.svg">
+
+    <form
+      class="gform"
+      method="POST"
+      data-email="wedding-confirmation@hue.com"
+      action="https://script.google.com/macros/s/AKfycbxe49T-JrO1xyBMDpEBtVq3IlUHenG313lAZLch47MMZrnfmGyWqgaFyHuy0lX5W5lu/exec"
+    >
+      <div class="envelope">
+        <div class="envelope-cap"></div>
+        <div class="letter-form">
+          <input id="honeypot" type="text" name="honeypot" value="" />
+          <input id="name" name="name" placeholder="שם מלא" />
+          <input id="phone" name="phone" placeholder="טלפון" />
+          <input id="number" type="number" min="1" max="5" name="number" placeholder="כמה תהיו?" />
+          <textarea name="additional" placeholder="בא לך להמליץ על שיר? לינק ליוטיוב זה מצויין"></textarea>
+          <button id="done">
+            <span class="text"> שלח </span>
+            <img class="loader" src="images/loader.svg" alt="loader" />
+          </button>
+        </div>
+      </div>
+       <div class="submit">
+        <h1>תודה!</h1>
+        <h4>נתראה בקרוב, <br/>הילה ואופיר</h4>
+      </div>
+    </form>
+
+  </section>
+
+  <a class="paybox" target="_blank" href="https://payboxapp.page.link/EkCVLq3dE3ok3BF66">
+    <img src="images/paybox.png" />
+    להעברת מתנה בפייבוקס לחצו כאן
+  </a>
+
+  <footer>
+    <img id="scroll-to-landing" class="arrow-icon" src="images/arrow-down.svg" alt="Hila & Ofir" />
+    <div class="parents">
+      <img class="bride-parents" src="images/bride-parents.svg"/>
+      <img class="groom-parents" src="images/groom-parents.svg"/>
+    </div>
+  </footer>
+
+  <script>
+
+  </script>
+</body>
+</html>
