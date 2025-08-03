@@ -126,6 +126,7 @@ section{ padding: 25px; }
   width: 700px;
   left: 0;
   top: 0;
+  z-index: -1000;
 }
 
 .landing .poem-img {
