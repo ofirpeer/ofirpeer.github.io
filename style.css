@@ -136,7 +136,7 @@ section{ padding: 25px; }
 
 .landing .title-img {
   position: relative;
-  width: 250px;
+  width: 100%;
   top: 15px;
 }
 .landing .arrow-icon {
@@ -222,9 +222,16 @@ section{ padding: 25px; }
 }
 
 
-.when{ max-width: 750px; margin: 0 auto; margin-top: 30px; }
+.when{
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 .when .when-details { width: 100%; }
-.when .plan-details { width: 100% }
+.when .plan-details { width: 100%; margin-top: auto; }
 
 .where{
   max-width: 750px;
