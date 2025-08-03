@@ -240,14 +240,12 @@ section{ padding: 25px; }
   width: 75px;
 
 }
-.where .where-details { margin: 15px 0; width: 150px; }
+.where .where-details { margin: 15px 0; width: 80%; }
 .where .directions{
   display: block;
   text-align: center;
   max-width: 330px;
-  margin: 0 auto;
-  margin-top: 55px;
-  margin-bottom: 40px;
+  margin: 20px auto;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
@@ -261,7 +259,6 @@ section{ padding: 25px; }
 .info{
   max-width: 750px;
   margin: 0 auto;
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -338,7 +335,8 @@ section{ padding: 25px; }
   width: 270px;
   height: 360px;
   position: absolute;
-  left: 20px;
+  left: 50%;
+  transform: translate(-50%);
   bottom: 150px;
   z-index: 3;
   line-height: 2;
